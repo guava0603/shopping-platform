@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-md fixed-top navbar-dark">
-    <a class="navbar-brand" @click="goto('/')">Simple Forum</a>
+    <a class="navbar-brand" @click="goto('/')">清大雄友週 - 購物網站</a>
     <i class="mobile fas fa-shopping-cart" @click="goto('/check')"></i>
     <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
       <span class="navbar-toggler-icon" @click="isMenuOpen = !isMenuOpen"></span>
